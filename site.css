@@ -11,28 +11,37 @@ main h1{
 	padding: 25px;
 	margin: 0px;
 	border-bottom: 10px solid #000;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 60px;
 }
 
-h1, h2 {
+main h2 {
 	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 30px;
 }
 
 p {
 	font-family: "Crimson Text", serif;
 	text-align: justify;
+	margin:20px 0;
 }
 
 blockquote{
    background-color: #D9E5E3;
    border:10px solid #c2ccca;
    width: 250px;
-   margin: 0;
+   margin: 20px 40px;
 }
 
 nav{
    background-color: #3C1D3D;
    color: #F2FFFC;
    
+}
+
+nav h1{
+	font-size: 30px;
+	padding: 25px;
 }
 
 footer{
@@ -61,12 +70,13 @@ main div {
 	width: 720px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 30px;
 }
 
-#teste {
-	border-left: 30px solid red;
-    border-bottom: 30px solid red;
-    border-top: 30px solid transparent;
-    border-right: 30px solid transparent;
-    width: 0;
+strong {
+	font-weight: bolder;
+}
+
+em {
+	font-style: italic;
 }
