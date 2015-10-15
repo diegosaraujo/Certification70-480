@@ -33,15 +33,22 @@ blockquote{
    margin: 20px 40px;
 }
 
-nav{
+aside{
    background-color: #3C1D3D;
    color: #F2FFFC;
-   
+   text-align: center;
+   padding: 20px;
+   font-family: "Open Sans Condensed", sans-serif;  
+}
+
+aside li{
+	display: inline-block;
 }
 
 nav h1{
 	font-size: 30px;
 	padding: 25px;
+	margin-bottom: 25px;
 }
 
 footer{
